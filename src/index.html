@@ -2,23 +2,161 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- PON UN FAVICON!!! -->
-    <link rel="icon" type="image/svg+xml" href="" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" type="image/png" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>huddle-landing-page-with-curved-sections</title>
   </head>
   <body>
-    <div class="card">
-      <h1 class="card__title">Título</h1>
-      <p class="card__text">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quis
-        mollitia sequi, quae voluptatem, eligendi, nam repudiandae cupiditate ad
-        consequatur natus omnis ducimus pariatur excepturi in magni voluptas
-        repellat quasi?
-      </p>
-      <a class="card__button" href="">boton</a>
-    </div>
+    <header>
+      <div class="header__top">
+        <img class="logo" src="./assets/images/logo.svg" alt="logo" />
+        <a class="button button--ghost" href="#">Try it Free</a>
+      </div>
+      <div class="header__info">
+        <h1 class="title">Build The Community Your Fans Will Love</h1>
+        <p class="text">
+          Huddle re-imagines the way we buildz communities. You have a voice,
+          but so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <a class="button button--pink" href="#">Get Started For Free</a>
+      </div>
+      <img
+        class="header__image"
+        src="./assets/images/screen-mockups.svg"
+        alt=""
+      />
+    </header>
+    <main>
+      <div class="info">
+        <img
+          class="info__icon"
+          src="./assets/images/icon-communities.svg"
+          alt="icon"
+        />
+        <span class="text text--xl">1.4k+</span>
+        <p class="text--m">Communities Formed</p>
+      </div>
+      <div class="info">
+        <img
+          class="info__icon"
+          src="./assets/images/icon-messages.svg"
+          alt="icon"
+        />
+        <span class="text text--xl">2.7m+</span>
+        <p class="text--m">Messages Sent</p>
+      </div>
+      <article class="article">
+        <img
+          class="article__image"
+          src="./assets/images/illustration-grow-together.svg"
+          alt="image"
+        />
+        <h2 class="title title--s">Grow Together</h2>
+        <p class="text">
+          Generate meaningful discussions with your audience and build a strong,
+          loyal community. Think of the insightful conversations you miss out on
+          with a feedback form.
+        </p>
+      </article>
+      <article class="article">
+        <img
+          class="article__image"
+          src="./assets/images/illustration-flowing-conversation.svg"
+          alt="image"
+        />
+        <h2 class="title title--s">Flowing Conversations</h2>
+        <p class="text">
+          You wouldn't paginate a conversation in real life, so why do it
+          online? Our threads have just-in-time loading for a more natural flow.
+        </p>
+      </article>
+      <article class="article">
+        <img
+          class="article__image"
+          src="./assets/images/illustration-your-users.svg"
+          alt="image"
+        />
+        <h2 class="title title--s">Your Users</h2>
+        <p class="text">
+          It takes no time at all to integrate Huddle with your app's
+          authentication solution. This means, once signed in to your app, your
+          users can start chatting immediately.
+        </p>
+      </article>
+      <div class="cta">
+        <h2 class="title title--xl">Ready To Build Your Community?</h2>
+        <a class="button button--pink" href="#">Get Started For Free</a>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__top">
+        <h3 class="title title--xs">NEWSLETTER</h3>
+        <p class="text text--bold">
+          To recieve tips on how to grow your community, sign up to our weekly
+          newsletter. We’ll never send you spam or pass on your email address
+        </p>
+        <div class="form">
+          <input class="form__input" type="email" name="email" />
+          <input class="button button--pink" type="submit" value="Suscribe" />
+        </div>
+      </div>
+      <section class="footer__section">
+        <img class="logo" src="./assets/images/logo.svg" alt="icon" />
+        <p class="text text--bold">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
+          quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+        </p>
+        <div class="contact">
+          <div class="contact__item">
+            <img
+              class="contact__icon"
+              src="./assets/images/icon-phone.svg"
+              alt="icon"
+            />
+            <p class="text text--white">Phone: +1-543-123-4567</p>
+          </div>
+          <div class="contact__item">
+            <img
+              class="contact__icon"
+              src="./assets/images/icon-email.svg"
+              alt="icon"
+            />
+            <p class="text text--white">example@company.com</p>
+          </div>
+        </div>
+      </section>
+      <div class="social-media">
+        <a class="sm-icon" href="#">
+          <img
+            class="sm-img"
+            src="./assets/images/post-facebook.svg"
+            alt="sm"
+          />
+        </a>
+        <a class="sm-icon" href="#">
+          <img
+            class="sm-img"
+            src="./assets/images/glyph-logo_May2016.svg"
+            alt="sm"
+          />
+        </a>
+        <a class="sm-icon" href="#">
+          <img class="sm-img" src="./assets/images/post-twitter.svg" alt="sm" />
+        </a>
+      </div>
+    </footer>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
