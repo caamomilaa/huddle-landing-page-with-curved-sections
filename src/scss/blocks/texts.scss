@@ -1,1 +1,25 @@
-
+.text{
+ font-size: 0.875rem;
+ line-height: 1.3125rem;   
+ margin: 0;
+}
+.text--xl{
+    font-weight:700; 
+    font-size: 3.8094rem;
+    line-height: 5.7125rem;
+}
+.text--m{
+    margin: 0;
+    font-size: 0.9525rem;
+    line-height: 1.4312rem;
+    color: var(--color-grey);
+}
+.text--bold{
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--color-white);
+}
+.text--white{
+    line-height: 1.5rem;
+    color: var(--color-white);
+}
