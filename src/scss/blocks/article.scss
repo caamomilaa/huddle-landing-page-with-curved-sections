@@ -1,0 +1,15 @@
+@use '../mixins/responsive.scss' as *;
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-bottom: 12.5rem;
+}
+.article--background {
+  background-color: var(--color-blue);
+}
+
+/* 
+fondo de color con un before y after. En cada uno un bck-img
+background-position: 0 -10px, 0 100%;
+*/

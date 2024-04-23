@@ -1,4 +1,9 @@
-.logo--top{
-    width: 6rem;
-    height: 1rem;
+@use '../mixins/responsive.scss' as *;
+.logo--top {
+  width: 6rem;
+  height: 1rem;
+  @include responsive(desktop) {
+    width: 15rem;
+    height: 2.375rem;
+  }
 }
