@@ -2,4 +2,7 @@
 .cta {
   margin-bottom: 251px;
   text-align: center;
+  @include responsive (desktop){
+    margin-bottom: 378px;
+  }
 }
