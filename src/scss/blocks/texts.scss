@@ -32,6 +32,10 @@
   font-weight: 600;
   line-height: 1.5rem;
   color: var(--color-white);
+  margin-bottom: 32px;
+  @include responsive(desktop) {
+    margin-bottom: 40px;
+  }
 }
 .text--white {
   line-height: 1.5rem;
